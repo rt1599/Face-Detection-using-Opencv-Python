@@ -28,6 +28,7 @@ def detect(gray, frame):
   return frame
 
 video_capture = cv2.VideoCapture(0)
+
 # Run the infinite loop
 while True:
   # Read each frame
